@@ -1,0 +1,155 @@
+#nav {
+    position:fixed;
+    top:0px;
+    right:0px;
+    width:20%;
+    height:100%;
+    background-color: rgb(255,255,255);
+    background-color:whitesmoke;
+    opacity:0.6;
+    margin: 0px;
+    display:inline-block;
+   padding:150px 40px 150px 0px;
+   line-height:2.5;
+   border-radius: 2%;
+   border:solid 2px black;
+   
+}
+.side{
+    color:rgb(0 91 178);
+    font-size:40px;
+    text-decoration: none;
+    font-weight:bold;
+    width:30%;
+}
+ul {
+    color:black;
+    width:100%;
+}
+  #body1  {
+    margin-right:28%;
+    display:inline-block;
+
+  }
+body{
+    background-image: linear-gradient(rgb(0 91 178),white);
+    background-color: rgb(40,65,100);
+    color: rgb(255,255,255);
+    font-size: 40px;
+    font-family: Arial;
+    width:100%;
+   
+}
+
+
+ 
+
+h1{
+    background-color:white;
+    color:rgb(0 91 178);
+    font-size:150%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border:2px solid white;
+  border-radius: 15px;
+  width:700px;
+  position: relative;
+  right:310px;
+
+}
+ol li{
+    margin:30px;
+}
+ol{
+    margin-bottom:300px;
+    
+
+}
+h3 {
+    border-bottom: 5px rgb(255,255,255) solid;
+    width: 500px;
+}
+
+
+a {
+    color: white;
+    font-size:120%;
+    
+   
+}
+th {
+    background-color: rgb(102 184 246 );
+}
+table tr:nth-child(2n+1) td{
+    background-color:rgb(102 184 246 / 0.2)
+}
+
+th,td{
+    text-align: center;
+    padding: 20px 20px;
+    margin: 16px,15px,15px,16px;
+    border: 1px solid white;
+}
+#logo{
+  border:2px solid white;
+   position:fixed;
+   top:20px;
+   left:50px;
+   opacity:0.80;
+   width:200px;
+   z-index: 1;
+}
+#images{
+    border:1px solid white;
+}
+div{
+   width:700px;
+   text-align :justify;
+}
+.link {
+    color: black;
+    border: 5px thick black;
+}
+.img {
+     width: 300px;
+    border: 8px double rgb(102 184 246 ); 
+    margin:10px;
+}
+.menu {
+    background-color: white;
+    color: rgb(102 184 246 );
+    border: 2px solid rgb(102 184 246 );
+    text-decoration:none;
+    margin:20px;
+}
+
+table {
+    margin-bottom: 50px;
+    width:400px;
+    font-size:20px;
+}
+p{ 
+    margin :100px 20px;
+  
+}
+.assets{
+    display:flex;
+   justify-content: space-between;
+  
+}
+.video{
+    width: 300px;
+    border: 8px solid rgb(102 184 246 ); 
+    margin:10px;
+    height:225px;
+    background-color: black;
+}
+h4{
+    color:black;
+}
+section{
+    display:block;
+}
+#yes, #intrested, #labelYes{
+    display:block;
+    font-size: 20px;
+}
