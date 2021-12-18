@@ -1,0 +1,15 @@
+img {
+    width: 750px;
+    border-radius: 10px;
+    position: absolute;
+    top: 20%;
+    left: 30vw;
+}
+
+button {
+    padding: 20px;
+    font-size: 40px;
+    position: fixed;
+    margin-top: 40vw;
+    margin-right: 80vw;
+}

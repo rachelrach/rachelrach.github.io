@@ -1,0 +1,132 @@
+#logo {
+    width: 250px;
+    display: block;
+    display: grid;
+    margin-right: 43vw;
+    margin-left: auto;
+    border-radius: 20%;
+}
+
+h1 {
+    background-color: rgb(217, 217, 217);
+    font-size: 70px;
+    font-weight: normal;
+}
+
+/*  */
+/* .textPlus{
+  margin-top: 10px;
+  display: flex;
+} */
+/*  */
+#helloName {
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.head {
+    display: flex;
+}
+
+#changeUser {
+    margin-top: 10px;
+    font-size: 20px;
+    border-radius: calc(0.5 * 44px) calc(0.5 * 44px);
+    padding: 15px;
+    /*  */
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+#menuOfGames {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    /*  */
+    margin-bottom: 30px;
+}
+
+.user {
+    margin-left: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 25px;
+}
+
+.modal {
+    display: "block";
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: #474e5d;
+    opacity: 0.8;
+    padding-top: 50px;
+}
+
+article {
+    display: flex;
+    position: relative;
+}
+
+article h2 {
+    position: absolute;
+    top: 40%;
+    right: 35%;
+
+}
+
+h2 {
+    font-size: 35px;
+    font-weight: normal;
+    color: azure;
+}
+
+
+header p {
+    font-size: 25px;
+}
+
+#openingText {
+    text-align: center;
+    margin: 20px;
+    font-size: 35px;
+    font-weight: normal;
+}
+
+#menuOfGames img {
+    opacity: 1;
+}
+
+#menuOfGames img:hover {
+    opacity: 0.7;
+}
+
+article img {
+    width: 20vw;
+    min-width: 200px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px rgb(199, 198, 198);
+}
+
+.show {
+    display: flex;
+    align-items: center;
+}
+
+#userImg {
+    border-radius: 10px;
+}

@@ -1,0 +1,182 @@
+#cardsContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    width: 700px;
+    margin: auto;
+    height: 100%;
+    max-height: 95vh;
+
+}
+
+#cardsContainer img {
+    width: 100px;
+    min-width: 150px;
+    max-width: 150px;
+    padding: 5px;
+
+}
+
+.animPic {
+    width: 100px;
+    min-width: 150px;
+    max-width: 150px;
+}
+
+.hideWithSpace {
+    visibility: hidden;
+}
+
+.showWithSpase {
+    visibility: visible;
+}
+
+.hideWithoutSpace {
+    display: none;
+}
+
+.showWhithoutSpace {
+    display: block;
+}
+
+
+.turnOutback {
+    animation-name: turnO;
+    animation-duration: 0.5s;
+
+}
+
+.turnOut {
+    animation-name: turnO;
+    animation-duration: 0.5s;
+}
+
+.turnIn {
+    animation-name: turnI;
+    animation-duration: 0.5s;
+
+}
+
+button {
+    font-size: 40px;
+    padding: 20px 30px;
+    border-radius: 50%;
+    right: 50px;
+    position: fixed;
+    bottom: 50px;
+}
+
+@keyframes turnO {
+    0% {
+        transform: rotateY(0deg)
+    }
+
+    100% {
+        transform: rotateY(90deg);
+    }
+}
+
+@keyframes turnI {
+    0% {
+        transform: rotateY(90deg);
+
+    }
+
+    100% {
+        transform: rotateY(0deg);
+
+    }
+}
+
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s;
+}
+
+@-webkit-keyframes animatezoom {
+    from {
+        -webkit-transform: scale(0)
+    }
+
+    to {
+        -webkit-transform: scale(1)
+    }
+}
+
+@keyframes animatezoom {
+    from {
+        -webkit-transform: scale(0)
+    }
+
+    to {
+        -webkit-transform: scale(1)
+    }
+}
+
+#howTo {
+    display: flex;
+}
+
+.intro {
+    position: fixed;
+    margin: auto;
+    bottom: 10vh;
+    right: 8vw;
+    width: 80vw;
+}
+
+.modal {
+    display: "block";
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: #474e5d;
+    opacity: 0.8;
+    padding-top: 50px;
+}
+
+#backToHome {
+    position: fixed;
+    z-index: 2;
+    border-radius: 0px;
+    top: 70vh;
+    right: 38vw;
+    max-height: fit-content;
+
+}
+
+#newGame {
+    position: fixed;
+    z-index: 2;
+    border-radius: 0px;
+    top: 49.5vh;
+
+    max-height: fit-content;
+    right: 40vw;
+
+}
+
+#endStep {
+    z-index: 3;
+    position: fixed;
+    border-radius: 0px;
+    top: 25vh;
+    right: 25%;
+    max-height: fit-content;
+}
+
+#timerText {
+    position: fixed;
+    bottom: 50px;
+    left: 50px;
+    font-size: 150px;
+}

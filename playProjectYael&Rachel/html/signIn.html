@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/signIn.css">
+    <title>Document</title>
+    <style></style>
+</head>
+
+<body>
+    <div class="logIn">
+        <img id="userImg" src="../images/homePage/phooALittle.png" alt=""><br>
+        <form onsubmit="return false">
+            <input type="text" name="userName" required value id="userNameIn" placeholder="שם משתמש">
+            <input type="password" name="userPassword" required value id="userPasswordIn" placeholder="סיסמה">
+            <input type="checkbox" onclick="showPsd1()">
+            <input type="submit" value="התחבר" required name="login" id="submit">
+            <label>or</label>
+            <input type="button" name="logup" value="הירשם" id="MoveToSignUp">
+        </form>
+    </div>
+
+    <div class="signUp">
+        <img id="userImg" src="../images/homePage/phooALittle.png" alt=""><br>
+        <form onsubmit="return false">
+            <input type="text" name="userName" value required id="userNameUp" placeholder="שם משתמש">
+            <input type="email" name="userEmail" value required id="userMailUp" placeholder="כתובת מייל">
+            <input type="password" name="userPassword" required value id="userPasswordUp" placeholder="סיסמה">
+            <input type="checkbox" onclick="showPsd2()">
+            <input type="submit" name="logup" value="הירשם" id="submitUp">
+        </form>
+    </div>
+    <div class="alert">
+        <p>hello</p>
+    </div>
+    <script src="../js/signIn.js"></script>
+</body>
+
+</html>

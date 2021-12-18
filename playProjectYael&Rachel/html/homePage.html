@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>דף הבית</title>
+    <link rel="stylesheet" href="../css/homePage.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+    <link rel="stylesheet" href="../css/allPages.css">
+    <link rel="stylesheet" href="../css/signIn.css">
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <div id="blackOut" class="modal"> </div>
+
+    <header>
+        <div class="head">
+        <img src="../images/homePage/logoGIF.gif" alt="gamephooLogo" id="logo">
+        <div class="user">
+            <p id="helloName"></p>
+            <button id="changeUser">החלף משתמש</button>
+        </div>
+    </div>
+        <h1>GamePhooo</h1>
+    </header>
+    <main>
+        <p id="openingText">gamephooo - משחקים עם פו הדב <br>בחרו לשחק במשחקים האהובים עליכם...</p>
+        <div class="blurred">
+            <div id="menuOfGames">
+                <article>
+                    <a href="memoryGame.html"><img src="../images/homePage/memory.png" alt=""></a>
+                    <h2>משחק <br>הזיכרון</h2>
+                </article>
+                <article>
+                    <a href="develop.html"><img src="../images/homePage/pazzelGame.png" alt=""></a>
+                    <h2>פאזל</h2>
+                </article>
+                <article>
+                    <a href="develop.html"><img src="../images/homePage/trivia.png" alt=""></a>
+                    <h2>טריוויה</h2>
+                </article>
+                <article>
+                    <a href="develop.html"><img src="../images/homePage/diffrants.png" alt=""></a>
+                    <h2>מצא את ההבדלים</h2>
+                </article>
+            </div>
+        </div>
+
+        <div style="display:block" id="logIn">
+            <img id="userImg" src="../images/homePage/phooALittle.png" alt=""><br>
+            <form onsubmit="return false">
+                <input type="text" name="userName" required value id="userNameIn" placeholder="שם משתמש">
+                <input type="password" name="userPassword" required value id="userPasswordIn" placeholder="סיסמה">
+                <div class="show">
+                    <input type="checkbox" onclick="showPsd2()">
+                    <label id="showPass">הראה את הסיסמה</label>
+                </div>
+                <input type="submit" value="התחבר" required name="login" id="submitIn">
+                <label>or</label>
+                <input type="button" name="logup" value="צור משתמש חדש" id="moveToSignUp">
+            </form>
+        </div>
+
+        <div style="display:block;" id="signUp">
+            <img id="userImg" src="../images/homePage/phooALittle.png" alt=""><br>
+            <form onsubmit="return false">
+                <input type="text" name="userName" value required id="userNameUp" placeholder="שם משתמש">
+                <input type="email" name="userEmail" value required id="userMailUp" placeholder="כתובת מייל">
+                <input type="password" name="userPassword" required value id="userPasswordUp" placeholder="סיסמה">
+                <div class="show">
+                    <input type="checkbox" onclick="showPsd2()">
+                    <label id="showPass">הראה את הסיסמה</label>
+                </div>
+                <input type="submit" name="logup" value="צור משתמש" id="submitUp">
+                <label>or</label>
+                <input type="button" name="moveToLogIn" value="התחבר" id="moveToLogIn">
+            </form>
+        </div>
+    </main>
+    <footer>
+        <a id="text">רוצים להישאר מעודכנים? היכנסו ל<a href="">www.gamephooo.co.il</a></a>
+        <a> | כל הזכויות שמורות לגיימפו משחקים בע"מ</a>
+    </footer>
+
+    <div id="alert">
+        <p id="announce">jyhgtrfsdeghj</p>
+    </div>
+
+    <script src="../js/signIn.js"></script>
+    <script src="../js/homePage.js"></script>
+</body>
+
+</html>

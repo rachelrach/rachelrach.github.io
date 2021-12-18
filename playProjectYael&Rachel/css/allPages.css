@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'rubik';
+    src: url(../fonts/RubikBeastly-Regular.ttf) format('truetype');
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'rubik';
+}
+
+html {
+    height: fit-content;
+}
+
+body {
+    background-image: url("../images/homePage/homeBack.png");
+
+    background-repeat: round;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+}
+
+footer {
+    background-color: rgb(217, 217, 217);
+    margin-bottom: 0px;
+    bottom: 0vh;
+    height: 35px;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 10px;
+    position: fixed;
+    width: 100%;
+}

@@ -1,0 +1,142 @@
+#logIn {
+    width: 30vw;
+    height: 80vh;
+    margin: auto;
+    right: 33vw;
+    top: 10vh;
+    border: 3px solid green;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    background-color: aliceblue;
+    z-index: 2;
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s;
+}
+
+#signUp {
+    width: 30vw;
+    height: 80vh;
+    margin: auto;
+    right: 33vw;
+    top: 10vh;
+    border: 3px solid green;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    background-color: aliceblue;
+    z-index: 2;
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s;
+}
+
+#userImg {
+    width: 10vw;
+    margin: 3vh 2vw;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+input {
+    margin: 1.5vh 2vw;
+    height: 5vh;
+}
+
+#alert {
+    position: fixed;
+    opacity: 0;
+    width: 280px;
+    height: 50px;
+
+    left: 0;
+    right: 0;
+    bottom: -30px;
+    margin: auto;
+    padding: 10px 0px;
+    border: none;
+    background-color: #4CAF50;
+    color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 6px 10px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    font-size: 21px;
+    text-align: center;
+    transition: 0.3s;
+
+
+
+}
+
+
+
+.animAlert {
+    animation: myfirst1 0.3s ease 0s 1 normal forwards, myfirst2 0.3s ease 3s 1 normal forwards;
+    z-index: 3;
+}
+
+@keyframes myfirst1 {
+    0% {
+        opacity: 0;
+        bottom: -30px;
+    }
+
+    100% {
+        opacity: 1;
+        bottom: 100px;
+    }
+}
+
+@keyframes myfirst2 {
+    0% {
+        opacity: 1;
+        bottom: 100px;
+    }
+
+    100% {
+        opacity: 0;
+        bottom: -30px;
+    }
+}
+
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s;
+}
+
+@-webkit-keyframes animatezoom {
+    from {
+        -webkit-transform: scale(0)
+    }
+
+    to {
+        -webkit-transform: scale(1)
+    }
+}
+
+@keyframes animatezoom {
+    from {
+        -webkit-transform: scale(0)
+    }
+
+    to {
+        -webkit-transform: scale(1)
+    }
+}

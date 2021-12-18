@@ -1,0 +1,8 @@
+/* @media screen and (min-width: 1124px) {
+    .contiener {
+        display: grid;
+        grid-template-columns: 1fr 900px 1fr;
+        grid-template-rows: 70px 100px 1fr 50px;
+        grid-template-areas: ". . .""h1 h1 h1"". main .""footer footer footer";
+    }
+} */

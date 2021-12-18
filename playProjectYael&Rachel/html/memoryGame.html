@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>משחק הזכרון</title>
+  <link rel="stylesheet" href="../css/memoryGame.css">
+  <link rel="stylesheet" href="../css/responsive.css">
+  <link rel="stylesheet" href="../css/allPages.css">
+  <link rel="stylesheet" href="../css/menu.css">
+
+</head>
+
+<body>
+  <header>
+    <p id="helloUser"></p>
+  </header>
+  <main>
+    <div id="cardsContainer"> </div>
+    <div id="gameMenu">
+      <h4>gamephooo</h4>
+      <form action="" id="menuForm" name="gameMenu">
+        <p>שלום אנחנו שמחים שאתה פה</p><br>
+        <div id="menu">
+          <label for="cardsNumber12" id="choose">בחר רמת קושי</label><br>
+          <input type="radio" id="cardsNumber8" name="cardsNumber" checked value="8">
+          <label for="cardsNumber8">קל</label><br>
+          <input type="radio" id="cardsNumber12" name="cardsNumber" value="12">
+          <label for="cardsNumber12">בינוני</label><br>
+          <input type="radio" id="cardsNumber16" name="cardsNumber" value="16">
+          <label for="cardsNumber16">קשה</label><br><br>
+        </div>
+        <div class="menu">
+          <label for="picture" id="choose">בחר ציור בגב הכרטיסים</label>
+          <div class="pictures">
+            <input type="radio" id="picture1" name="pictures" checked value="../images/memoryGame/cardBack.png">
+            <img src="../images/memoryGame/cardBack.png">
+            <input type="radio" id="picture2" name="pictures" value="../images/memoryGame/cardBack2.png">
+            <img src="../images/memoryGame/cardBack2.png">
+          </div>
+        </div>
+        <input id="start" type="button" value="התחל">
+
+      </form>
+    </div>
+    <audio id="audio" src="../audio/sound61.wav" autoplay="false"></audio>
+    <audio id="music" src="../audio/StandardJazzBars.mp3" autoplay="false"></audio>
+    <div id="howTo">
+      <button id="help">
+        <label>?</label>
+      </button>
+      <img class="intro hideWithoutSpace" id="howToPlay" src="../images/memoryGame/howToPlay.png">
+    </div>
+    <p id="timerText"></p>
+    <button id="endStep"></button>
+    <button id="newGame" onclick="window.location.href='../html/memoryGame.html'">משחק חדש</button></a>
+    <button id="backToHome" onclick="window.location.href='../html/homePage.html'">חזרה לדף הבית</button>
+    <div id="blackOut" class="modal"> </div>
+</body>
+
+</html>
+</main>
+
+<script src="../js/memoryGame.js"></script>
+
+</body>
+
+</html>
